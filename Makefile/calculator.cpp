@@ -1,6 +1,6 @@
 #include <iostream>
-#include "lib/add-mine.h"
-#include "lib/devi-to.h"
+#include "lib/add-mine.cpp"
+#include "lib/devi-to.cpp"
 
 first *obj1 = new first;
 second *obj2 = new second;
