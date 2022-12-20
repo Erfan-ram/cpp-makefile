@@ -29,7 +29,7 @@ int main()
     }
     else if (opt == '/')
     {
-        cout << obj2->multiplication(&num1, &num2);
+        cout << obj2->division(&num1, &num2);
     }
 
     return 0;
