@@ -11,7 +11,7 @@ int main()
     float num1, num2;
     char opt = ' ';
 
-    cout << "please enter the calculation expression and press enter\n\t  : ";
+    cout << "please enter the calculation expression and press enter ( + - * / )\n\t  : ";
     cin >> num1 >> opt >> num2;
 
     if (opt == '+')
@@ -19,6 +19,14 @@ int main()
         cout << obj->addition(&num1, &num2);
     }
     else if (opt == '-')
+    {
+        cout << obj->mines(&num1, &num2);
+    }
+    else if (opt == '*')
+    {
+        cout << obj->mines(&num1, &num2);
+    }
+    else if (opt == '/')
     {
         cout << obj->mines(&num1, &num2);
     }
