@@ -1,7 +1,6 @@
 #include <iostream>
-// #include "add-mine.h"
+#include "add-mine.h"
 // #include "devi-to.h"
-#include </mnt/nvme1n1p1/cpp-projects/calculator/add-mine.h>
 
 first *obj = new first;
 
@@ -12,7 +11,7 @@ int main()
     int num1, num2;
     char opt = ' ';
 
-    cout << "please enter the calculation expression and press enter";
+    cout << "please enter the calculation expression and press enter\n\t  : ";
     cin >> num1 >> opt >> num2;
 
     if (opt == '+')
