@@ -18,6 +18,11 @@ int main()
     {
         cout << obj->addition(&num1, &num2);
     }
+    else if (opt == '-')
+    {
+        cout << obj->mines(&num1, &num2);
+    }
+    
 
     return 0;
 }
