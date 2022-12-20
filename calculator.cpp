@@ -1,8 +1,9 @@
 #include <iostream>
 #include "add-mine.h"
-// #include "devi-to.h"
+#include "devi-to.h"
 
-first *obj = new first;
+first *obj1 = new first;
+second *obj2 = new second;
 
 using namespace std;
 
@@ -16,21 +17,20 @@ int main()
 
     if (opt == '+')
     {
-        cout << obj->addition(&num1, &num2);
+        cout << obj1->addition(&num1, &num2);
     }
     else if (opt == '-')
     {
-        cout << obj->mines(&num1, &num2);
+        cout << obj1->subtraction(&num1, &num2);
     }
     else if (opt == '*')
     {
-        cout << obj->mines(&num1, &num2);
+        cout << obj2->multiplication(&num1, &num2);
     }
     else if (opt == '/')
     {
-        cout << obj->mines(&num1, &num2);
+        cout << obj2->division(&num1, &num2);
     }
-    
 
     return 0;
 }
