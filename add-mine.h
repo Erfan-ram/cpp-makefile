@@ -3,8 +3,13 @@ class first
 private:
     /* data */
 public:
-    int addition(int *num1, int *num2)
+    auto addition(auto *num1, auto *num2)
     {
         return *num1 + *num2;
+    }
+
+    auto mines(auto *num1, auto *num2)
+    {
+        return *num1 - *num2;
     }
 };

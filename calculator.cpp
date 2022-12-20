@@ -8,7 +8,7 @@ using namespace std;
 
 int main()
 {
-    int num1, num2;
+    float num1, num2;
     char opt = ' ';
 
     cout << "please enter the calculation expression and press enter\n\t  : ";
