@@ -7,3 +7,11 @@ To run this project using makefile first istall make
 ```bash
   sudo apt install make
 ```
+Then clone this repository to your local storage
+
+```bash
+  git clone https://github.com/Erfan-ram/cpp-makefile.git
+  
+  ╰─➤  cd cpp-makefile  
+
+```
