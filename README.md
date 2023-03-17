@@ -46,6 +46,6 @@ make clean
 # Quick run <a id="quick-run"></a>
 you can run below code without being involved with make :smiling_face_with_tear:
 ```bash
-g++ -std=c++20 calculator.cpp src/add-mine.cpp src/mul-dev.cpp
+g++ -std=c++20 calculator.cpp src/add-mine.cpp src/mul-dev.cpp -o calculator
 ./calculator
 ```
