@@ -12,8 +12,8 @@ First clone this repository to your local storage
 
 ```
 you would have 2 choices to run
-- [Makefile](#Makefile)
-- [Quick run](#Quick-run)
+- [Makefile](#makefile)
+- [Quick run](#quick-run)
 <br><br/>
 # Makefile <!--Makefile-->
 To run this project using makefile first istall make
