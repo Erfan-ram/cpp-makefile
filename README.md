@@ -11,11 +11,11 @@ First clone this repository to your local storage
   ╰─➤  cd cpp-makefile
 
 ```
-you would have 2 choices to run
-- [Makefile](#makefile)
-- [Quick run](#quick-run)
+you would have 2 choices to continue
+- [Using makefile](#makefile)
+- [Using code](#quick-run)
 <br><br/>
-# Makefile <!--Makefile-->
+# Makefile <a id="makefile"></a>
 To run this project using makefile first istall make
 
 ```bash
@@ -43,5 +43,5 @@ also you can clean complied `.o` output files using
 make clean
 ```
 <br><br/>
-# Quick run <!--Quick run-->
+# Quick run <a id="quick-run"></a>
 you can run below code without being involved with make :smiling_face_with_tear:	
