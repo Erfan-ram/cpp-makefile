@@ -12,10 +12,10 @@ First clone this repository to your local storage
 
 ```
 you would have 2 choices to run
-- [Makefile](#make)
-- [Quick run](#quick)
+- [Makefile](#Makefile)
+- [Quick run](#Quick-run)
 <br><br/>
-# Makefile <!--make-->
+# Makefile <!--Makefile-->
 To run this project using makefile first istall make
 
 ```bash
@@ -43,5 +43,5 @@ also you can clean complied `.o` output files using
 make clean
 ```
 <br><br/>
-# Quick run <!--quick-->
+# Quick run <!--Quick run-->
 you can run below code without being involved with make :smiling_face_with_tear:	
