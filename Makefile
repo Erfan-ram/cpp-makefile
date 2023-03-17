@@ -1,16 +1,20 @@
 CC=g++
 CFLAGS= -c -Wall -std=c++20
+DIR= -o src/
 
 all: output
 
-output: main.o module.o
-	$(CC) main.o module.o -o output
+output: calculator.o src/add-mine.o src/mul-dev.o
+	$(CC) calculator.o src/add-mine.o src/mul-dev.o -o calculator
 
-main.o: main.cpp
-	$(CC) $(CFLAGS) main.cpp
+calculator.o: calculator.cpp
+	$(CC) $(CFLAGS) calculator.cpp
 
-module.o: module.cpp
-	$(CC) $(CFLAGS) module.cpp
+src/add-mine.o: src/add-mine.cpp
+	$(CC) $(CFLAGS) src/add-mine.cpp $(DIR)add-mine.o
+
+src/mul-dev.o: src/mul-dev.cpp
+	$(CC) $(CFLAGS) src/mul-dev.cpp $(DIR)mul-dev.o
 
 # You can add your codes here
 clean: 
