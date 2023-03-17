@@ -1,11 +1,11 @@
-#include "devi-to.h"
+#include "mul-dev.h"
 
-auto second::multiplication(auto *num1, auto *num2)
+float second::multiplication(auto num1, auto num2)
 {
-    return *num1 * *num2;
+    return num1 * num2;
 }
 
-auto second::division(auto *num1, auto *num2)
+float second::division(auto num1, auto num2)
 {
-    return *num1 / *num2;
+    return num1 / num2;
 }

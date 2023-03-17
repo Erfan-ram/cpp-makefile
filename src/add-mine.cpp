@@ -1,11 +1,11 @@
 #include "add-mine.h"
 
-auto addition(auto *num1, auto *num2)
+float first::addition(auto num1, auto num2)
 {
-    return *num1 + *num2;
+    return num1 + num2;
 }
 
-auto subtraction(auto *num1, auto *num2)
+float first::subtraction(auto num1, auto num2)
 {
-    return *num1 - *num2;
+    return num1 - num2;
 }
