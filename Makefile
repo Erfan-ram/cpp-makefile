@@ -4,16 +4,16 @@ DIR= -o src/
 
 all: output
 
-output: calculator.o src/add-mine.o src/mul-dev.o
-	$(CC) calculator.o src/add-mine.o src/mul-dev.o -o calculator
+output: calculator.o add-mine.o mul-dev.o
+	$(CC) cal.o src/add-mine.o src/mul-dev.o -o calculator
 
 calculator.o: calculator.cpp
-	$(CC) $(CFLAGS) calculator.cpp
+	$(CC) $(CFLAGS) calculator.cpp -o cal.o
 
-src/add-mine.o: src/add-mine.cpp
+add-mine.o: src/add-mine.cpp
 	$(CC) $(CFLAGS) src/add-mine.cpp $(DIR)add-mine.o
 
-src/mul-dev.o: src/mul-dev.cpp
+mul-dev.o: src/mul-dev.cpp
 	$(CC) $(CFLAGS) src/mul-dev.cpp $(DIR)mul-dev.o
 
 # You can add your codes here
