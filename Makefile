@@ -1,18 +1,20 @@
-calculator: calculator.o add-mine.o devi-to.o
-	g++ calculator.o add-mine.o devi-to.o -o calculator
+CC=g++
+CFLAGS= -c -Wall -std=c++20
 
-calculator.o: calculator.cpp
-	g++ -w -c calculator.cpp
+all: output
 
-add-mine.o: lib/add-mine.cpp
-	g++ -w -c lib/add-mine.cpp
+output: main.o module.o
+	$(CC) main.o module.o -o output
 
-devi-to.o: lib/devi-to.cpp
-	g++ -w -c lib/devi-to.cpp
+main.o: main.cpp
+	$(CC) $(CFLAGS) main.cpp
+
+module.o: module.cpp
+	$(CC) $(CFLAGS) module.cpp
 
 # You can add your codes here
 clean: 
-	rm *.o calculator
+	rm -rf *.o calculator
 	clear
 
 run:
