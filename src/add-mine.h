@@ -1,18 +1,12 @@
-#ifndef ADD_MIN// include guard
+#ifndef ADD_MIN // include guard
 #define ADD_MIN
 
-class MyClass {
-  private:
-    int myPrivateInt;
+class first
+{
+public:
+    auto addition(auto *num1, auto *num2);
 
-  public:
-    // Constructors and Destructor
-    MyClass();
-    explicit MyClass(int initialValue); // only 1 argument constructor.
-    ~MyClass();
-
-    // Public methods/functions
-    void setPrivateInt(int newValue);
-    int getPrivateInt() const;
+    auto subtraction(auto *num1, auto *num2);
 };
+
 #endif /* ADD_MIN */
