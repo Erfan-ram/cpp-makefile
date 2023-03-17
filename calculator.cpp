@@ -1,6 +1,6 @@
 #include <iostream>
-#include "lib/add-mine.cpp"
-#include "lib/devi-to.cpp"
+#include "src/add-mine.cpp"
+#include "src/mul-dev.cpp"
 
 first *obj1 = new first;
 second *obj2 = new second;
@@ -17,19 +17,19 @@ int main()
 
     if (opt == '+')
     {
-        cout << obj1->addition(&num1, &num2);
+        cout << obj1->addition(num1, num2);
     }
     else if (opt == '-')
     {
-        cout << obj1->subtraction(&num1, &num2);
+        cout << obj1->subtraction(num1, num2);
     }
     else if (opt == '*')
     {
-        cout << obj2->multiplication(&num1, &num2);
+        cout << obj2->multiplication(num1, num2);
     }
     else if (opt == '/')
     {
-        cout << obj2->division(&num1, &num2);
+        cout << obj2->division(num1, num2);
     }
 
     return 0;

@@ -4,9 +4,9 @@
 class second
 {
 public:
-    auto multiplication(auto *num1, auto *num2);
+    float multiplication(auto num1, auto num2);
 
-    auto division(auto *num1, auto *num2);
+    float division(auto num1, auto num2);
 };
 
 #endif /* DEV_TO */

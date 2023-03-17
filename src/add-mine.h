@@ -4,9 +4,9 @@
 class first
 {
 public:
-    auto addition(auto *num1, auto *num2);
+    float addition(auto num1, auto num2);
 
-    auto subtraction(auto *num1, auto *num2);
+    float subtraction(auto num1, auto num2);
 };
 
 #endif /* ADD_MIN */
