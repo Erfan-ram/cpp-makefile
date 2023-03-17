@@ -32,5 +32,8 @@ int main()
         cout << obj2->division(num1, num2);
     }
 
+    delete obj1;
+    delete obj2;
+
     return 0;
 }
