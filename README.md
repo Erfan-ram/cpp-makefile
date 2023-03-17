@@ -12,8 +12,8 @@ First clone this repository to your local storage
 
 ```
 you would have 2 choices to continue
-- [Using makefile](#makefile)
-- [Using code](#quick-run)
+- [Using makefile](#makefile) :sunglasses:
+- [Using code](#quick-run) :monocle_face:
 <br><br/>
 # Makefile <a id="makefile"></a>
 To run this project using makefile first istall make
@@ -44,4 +44,8 @@ make clean
 ```
 <br><br/>
 # Quick run <a id="quick-run"></a>
-you can run below code without being involved with make :smiling_face_with_tear:	
+you can run below code without being involved with make :smiling_face_with_tear:
+```bash
+g++ -std=c++20 calculator.cpp src/add-mine.cpp src/mul-dev.cpp
+./calculator
+```
